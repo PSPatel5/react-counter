@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 12px 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+button {
+  all: unset;
+  margin: 0px 12px;
+  text-transform: uppercase;
+  border: 1px solid lightslategrey;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  border-color: gray;
+}
